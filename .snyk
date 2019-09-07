@@ -1,0 +1,58 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gatsby-remark-external-links > unist-util-find > remark > remark-stringify > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-remark-external-links > unist-util-find > remark > unified > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-remark-external-links > unist-util-find > remark > remark-parse > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-sharp > potrace > jimp > request > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > gulp-decompress > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > decompress > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-wrapper > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > imagemin-webp > cwebp-bin > bin-build > download > vinyl-fs > glob-stream > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > potrace > jimp > request > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - styled-jsx-plugin-stylelint > stylelint > postcss-html > remark > unified > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-remark > unified > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > probe-image-size > request > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-remark > remark > unified > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-remark-smartypants > retext > unified > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-remark-copy-linked-files > probe-image-size > request > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-sharp > probe-image-size > request > extend:
+        patched: '2019-09-07T18:00:55.902Z'
+  'npm:stringstream:20180511':
+    - gatsby-plugin-sharp > probe-image-size > request > stringstream:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-remark-copy-linked-files > probe-image-size > request > stringstream:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-sharp > probe-image-size > request > stringstream:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-plugin-sharp > potrace > jimp > request > stringstream:
+        patched: '2019-09-07T18:00:55.902Z'
+    - gatsby-transformer-sharp > potrace > jimp > request > stringstream:
+        patched: '2019-09-07T18:00:55.902Z'
+  'npm:tunnel-agent:20170305':
+    - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
+        patched: '2019-09-07T18:00:55.902Z'
