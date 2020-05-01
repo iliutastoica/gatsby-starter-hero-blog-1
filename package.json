@@ -52,7 +52,7 @@
     "tinycolor2": "^1.4.1",
     "typeface-open-sans": "^0.0.54",
     "yaml-loader": "^0.5.0",
-    "snyk": "^1.226.0"
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "gatsby"
@@ -67,7 +67,7 @@
     "stylelint": "stylelint src/**/*.js",
     "generate-app-icons": "sh ./scripts/generate-app-icons.sh",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.2.0",
