@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -56,3 +56,68 @@ patch:
   'npm:tunnel-agent:20170305':
     - gatsby-plugin-sharp > imagemin-pngquant > pngquant-bin > bin-wrapper > download > caw > tunnel-agent:
         patched: '2019-09-07T18:00:55.902Z'
+  SNYK-JS-LODASH-567746:
+    - antd > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-netlify > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-offline > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-copy-linked-files > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-images > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-responsive-iframe > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-transformer-remark > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - antd > rc-form > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - antd > rc-steps > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - antd > rc-table > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - antd > rc-tabs > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-algolia > gatsby-cli > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-offline > cheerio > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-copy-linked-files > cheerio > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-images > cheerio > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-remark-responsive-iframe > cheerio > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-core > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-dom > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - styled-jsx > babel-types > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - styled-jsx-plugin-stylelint > postcss-reporter > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - styled-jsx-plugin-stylelint > stylelint > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-core > algoliasearch-helper > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-dom > algoliasearch-helper > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-dom > react-instantsearch-core > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-native > react-instantsearch-core > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - styled-jsx-plugin-stylelint > stylelint > postcss-reporter > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - styled-jsx-plugin-stylelint > stylelint > table > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-algolia > gatsby-cli > yurnalist > inquirer > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - gatsby-plugin-react-svg > svg-react-loader > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-dom > react-instantsearch-core > algoliasearch-helper > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
+    - react-instantsearch > react-instantsearch-native > react-instantsearch-core > algoliasearch-helper > lodash:
+        patched: '2020-05-01T03:01:52.485Z'
